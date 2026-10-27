@@ -15,29 +15,7 @@
 #define RAISE 2
 #define ADJUST 3
 
-        extra_4 {
-            status = "reserved";
-        };
 
-        extra_5 {
-            status = "reserved";
-        };
-
-        extra_6 {
-            status = "reserved";
-        };
-
-        extra_7 {
-            status = "reserved";
-        };
-
-        extra_8 {
-            status = "reserved";
-        };
-
-        extra_9 {
-            status = "reserved";
-        };
 
 / {
     // Activate ADJUST layer by pressing raise and lower
@@ -134,6 +112,29 @@
 &none              &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &none
                                     &none            &none            &none            &none            &none              &none  &none  &none  &none  &none
             >;
+        };
+        extra_4 {
+            status = "reserved";
+        };
+
+        extra_5 {
+            status = "reserved";
+        };
+
+        extra_6 {
+            status = "reserved";
+        };
+
+        extra_7 {
+            status = "reserved";
+        };
+
+        extra_8 {
+            status = "reserved";
+        };
+
+        extra_9 {
+            status = "reserved";
         };
     };
 };
